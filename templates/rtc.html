@@ -1,0 +1,29 @@
+{% extends "public-base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" type="text/css" media="screen" href="static/css/style.css">     
+{% endblock %}
+
+{% block content %}
+
+
+
+<div id="mainDiv">
+    <h1><code>getUserMedia()</code>: playing with video constraints</h1>
+
+    <p>Click one of the below buttons to change video resolution...</p>
+
+    <div id="buttons">
+        <button id="qvga">320x240px</button>
+        <button id="vga">640x480px</button>
+        <button id="hd">1280x960px</button>
+    </div>
+
+    <p id="dimensions"></p>
+
+    <video autoplay></video>
+
+    <script src="static/js/rtc2.js"></script>
+</div>
+
+{% endblock %}

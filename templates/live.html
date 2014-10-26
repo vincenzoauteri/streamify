@@ -1,0 +1,18 @@
+{% extends "public-base.html" %}
+{% block content %}
+
+<h1 id="info">Please allow this page to access your camera.</h1>
+
+<!--
+    <div id="notSupported">
+        <h1>Your browser does not support the Camera API.</h1>
+        <img src="images/screenshot.png" align="center" />
+    </div>
+    -->
+
+    <pre id="stream"></pre>
+    <button id="pause">pause / resume</button>
+
+    <script src="/static/js/live.js"></script>
+    <script src="/static/js/app.js"></script>
+{% endblock %}

@@ -1,0 +1,19 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.error_text { 
+    color: #DD2222;
+}
+.videobox {
+    width:320px;
+    height:200px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
